@@ -1,0 +1,158 @@
+* {
+	box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fafafa;
+}
+header {
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    background: white;
+}
+.logo a img {
+    width: 160px;
+    height: 165px;
+}
+.info {
+    margin-top: 45px;
+    margin-left: 95px;
+}
+.name {
+    display: flex;
+}
+.name h1 {
+    font-size: 35px;
+    margin-right: 20px;
+}
+.name p {
+    font-size: 15px;
+    color: #4090db;
+    border: 1px solid #4090db;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3px;
+}
+.followers {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+}
+.followers p span {
+    font-weight: bold;
+}
+.date {
+    display: flex;
+    justify-content: space-around;
+    margin-top:25px;
+}
+.date p {
+    font-size: 17px;
+}
+.date input {
+    border-radius: 5px;
+    border: 1px solid #9e9e9e;
+}
+.mainSection {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: center;
+}
+.mainSection div {
+    padding: 15px;
+    position: relative;
+}
+
+.mainSection img {
+    width: 292px;
+    height:292px;
+}
+#lastP {
+    top: 275px;
+    left: 65px;
+}
+.mainSection div p{
+    position: absolute;
+    top:175px;
+    color:white;
+    font-size: 17px;
+    left: 30px;
+    font-weight: bold;
+}
+div p i:first-child {
+    padding-left: 60px;
+}
+div p i:last-child {
+    padding-left: 25px;
+}
+div .secondP {
+    padding-top: 25px;
+}
+div .secondP i:first-child {
+    padding-left: 34px;
+}
+div .secondP i:last-child {
+    padding-left: 34px;
+}
+
+
+.block-2 p i:last-child {
+    padding-left: 4px;
+}
+
+.block-2 .secondP i:last-child {
+    padding-left: 34px;
+}
+.futer {
+    margin-bottom: 100px;
+}
+.futer button {
+    color: black;
+    border-radius: 15px;
+    border:1px solid #000000;
+    padding: 10px 30px;
+    background: white;
+}
+
+
+
+
+@media screen and (max-width: 666px) {
+    .logo a img {
+    width: 110px;
+    height: 115px;
+    }
+    .info {
+    margin-left: 15px;
+    }
+    .name h1 {
+        font-size: 20px;
+    }
+    .name p {
+        padding-top: 4px;
+        font-size: 10px;
+    }
+    .followers p{
+        font-size: 15px;
+    }
+    .date{
+        flex-direction: column;
+    }
+    .date input {
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 321px) {
+    .logo a img {
+    width: 70px;
+    height: 75px;
+    }
+    .info {
+    margin-top: 10px;
+    }
+}
